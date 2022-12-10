@@ -1,5 +1,6 @@
 @import "./reset.css";
-@import "./form.css";
+@import "./makeForm.css";
+@import "./resultCard.css";
 
 * {
   box-sizing: border-box;

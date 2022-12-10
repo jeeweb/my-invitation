@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="make_box show">
+  <div id="makeBox" class="make_box show">
     <div class="scroll-wrap">
       <form>
         <div class="">
@@ -17,7 +17,7 @@
         </div>
         <div class="">
           <span class="sub-title">메인 이미지</span>
-          <input type="file">
+          <input type="file" id="fileMain">
         </div>
         <div class="">
           <span class="sub-title">전하고 싶은 말</span>
@@ -50,21 +50,22 @@
           <input type="file">
         </div>
         <div class="btn_box">
-          <button type="submit">Make</button>
+          <button type="submit" id="makeBtn">Make</button>
         </div>
       </form>
     </div>
   </div>
-  <div class="result_box">
-    <h1 class="title"></h1>
-    <div class="img_main"></div>
-    <p class="txt"></p>
+  <div id="resultBox" class="result_box">
+    <h1 id="cardTitle" class="card_title"></h1>
+    <img src="" id="imgMain" class="card_mainImg">
+    <p class="txt" class="card_txt"></p>
     <ul class="lst_imgs">
       <li>
         <!-- <img src="" alt=""> -->
       </li>
     </ul>
-    <button type="button">Share Link</button>
+    <button type="button" id="shareBtn">Share Link</button>
   </div>
+  <script src="js/main.js"></script>
 </body>
 </html>

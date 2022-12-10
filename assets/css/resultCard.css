@@ -1,0 +1,9 @@
+.result_box.show {
+  display: block;
+  width: 100vw;
+  background-color: #fff;
+}
+.card_mainImg {
+  width: 100%;
+  height: auto;
+}

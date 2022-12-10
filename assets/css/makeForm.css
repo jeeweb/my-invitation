@@ -3,14 +3,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-/*
-.make_box.show {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-*/
 .make_box.show {
   position: relative;
   display: block;
