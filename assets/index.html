@@ -10,18 +10,18 @@
 <body>
   <div id="makeBox" class="make_box show">
     <div class="scroll-wrap">
-      <form>
+      <form method="post" enctype="multipart/form-data">
         <div class="">
           <span class="sub-title">제목</span>
-          <input type="text">
+          <input type="text" id="iptTitle">
         </div>
         <div class="">
           <span class="sub-title">메인 이미지</span>
-          <input type="file" id="fileMain">
+          <input type="file" id="fileMain" accept="image/*">
         </div>
         <div class="">
           <span class="sub-title">전하고 싶은 말</span>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <textarea name="" id="iptTxt" cols="30" rows="10"></textarea>
         </div>
         <div class="">
           <span class="sub-title">텍스트 정렬</span>
@@ -58,7 +58,7 @@
   <div id="resultBox" class="result_box">
     <h1 id="cardTitle" class="card_title"></h1>
     <img src="" id="imgMain" class="card_mainImg">
-    <p class="txt" class="card_txt"></p>
+    <p id="cardTxt" class="card_txt"></p>
     <ul class="lst_imgs">
       <li>
         <!-- <img src="" alt=""> -->
